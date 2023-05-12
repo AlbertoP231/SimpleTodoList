@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "npm run dev, npm run jsonserver",
+    "start": "next start",
     "lint": "next lint",
     "jsonserver": "json-server --watch data/todos.json --port 3001"
   },
