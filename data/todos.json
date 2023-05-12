@@ -1,20 +1,3 @@
 {
-  "tasks": [
-    {
-      "id": "1",
-      "text": "buy milk with some orange"
-    },
-    {
-      "id": "2",
-      "text": "help my freand to find a girl"
-    },
-    {
-      "id": "4",
-      "text": "ir al gom"
-    },
-    {
-      "id": "5",
-      "text": "learn programing"
-    }
-  ]
+  "tasks": []
 }
