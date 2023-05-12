@@ -34,9 +34,9 @@ export const editTodo = async (todo: ITask) : Promise<ITask> => {
 
 }
 
-export const deleteTodo = async (id: string) : Promise<void> => {
-     await fetch(`${baseUrl}/tasks/${id}`,{
-        method: 'DELETE',
-    })
-
-}
+export const deleteTodo = async (id: string): Promise<void> => {
+    await fetch(`${baseUrl}/tasks/${id}`, {
+      method: 'DELETE',
+    });
+  }
+  
