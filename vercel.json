@@ -2,18 +2,19 @@
     "version": 2,
     "builds": [
       {
-        "src": "package.json",
-        "use": "@vercel/node"
+        "src": "next.config.js",
+        "use": "@vercel/next"
       }
     ],
     "routes": [
       {
-        "src": "/",
-        "dest": "npm run dev"
+        "src": "/api/.*",
+        "dest": "/api/index.js"
       },
       {
-        "src": "/jsonserver",
-        "dest": "npm run jsonserver"
+        "src": "/(.*)",
+        "dest": "/$1"
       }
     ]
   }
+  
